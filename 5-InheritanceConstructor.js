@@ -60,6 +60,6 @@ console.log(tesla.__proto__.__proto__ === Car.prototype);
 // 'this' keyword will be replaced with the <new EV object>.
 
 // function Car(firstName, make, currSpeed) {
-//   <new EV object>.firstName = firstName;
-//   <new EV object>.birhtYear = birhtYear;
+//   <new EV object>.make = make;
+//   <new EV object>.currSpeed = currSpeed;
 // }
